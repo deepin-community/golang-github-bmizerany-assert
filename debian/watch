@@ -1,0 +1,3 @@
+version=3
+ https://github.com/bmizerany/assert/releases \
+ .*/v?(\d[\d\.]*)\.tar\.gz
