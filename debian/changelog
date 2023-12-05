@@ -1,5 +1,36 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-bmizerany-assert (0.0~git20120716-4) unstable; urgency=medium
 
-  * Initial release
+  * Switch to XS-Go-Import-Path
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Michael Stapelberg <stapelberg@debian.org>  Thu, 08 Feb 2018 09:33:13 +0100
+
+golang-github-bmizerany-assert (0.0~git20120716-3) unstable; urgency=medium
+
+  * Replace golang-go with golang-any in Build-Depends, remove golang-go from Depends
+
+ -- Konstantinos Margaritis <markos@debian.org>  Tue, 08 Aug 2017 17:13:44 +0300
+
+golang-github-bmizerany-assert (0.0~git20120716-2) unstable; urgency=medium
+
+  [ Paul Tagliamonte ]
+  * Use a secure transport for the Vcs-Git and Vcs-Browser URL
+
+  [ Tim Potter ]
+  * Fix incorrect B-D for golang-pretty transitional package (Closes: #830332)
+  * Update my email address
+  * Standards-Version: 3.9.8
+
+ -- Tim Potter <tpot@hpe.com>  Sat, 09 Jul 2016 20:01:17 +1000
+
+golang-github-bmizerany-assert (0.0~git20120716-1) unstable; urgency=medium
+
+  [ Tim Potter ]
+  * Initial release (Closes: #785166)
+
+  [ Michael Stapelberg ]
+  * Import new upstream version.
+  * Update dependency on golang-pretty in anticipation of upcoming package
+    rename.
+  * Add myself to uploaders.
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Sat, 18 Jul 2015 15:00:20 +0200
